@@ -1,2 +1,2 @@
-# All Core
- Info sobre cores
+# All Core - Site de Cores
+ Site com algumas informações sobre cores, a maioria das fotos são prints dos slides do Professor Gustavo Guanabara.
