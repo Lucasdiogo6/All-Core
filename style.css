@@ -57,6 +57,7 @@ img {
     margin-top: 15px;
 }
 h1 {
+    color: #AD68EF;
     margin: 15px;
 }
 h2 {
@@ -64,4 +65,8 @@ h2 {
 }
 p{
     margin: 15px;
+}
+ul.justify {
+    text-align: justify;
+    margin-left: 23%;
 }
