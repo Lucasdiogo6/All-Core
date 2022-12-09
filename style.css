@@ -2,6 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 
+
+@-webkit-keyframes scale-up-center {
+
+    0% {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+    100% {
+    -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes scale-up-center {
+
+    0% {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+    100% {
+    -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
 body {
     background-color: #872BCF;
     font-family: 'Lato', sans-serif;
@@ -85,6 +109,15 @@ section {
 img {
     margin-top: 15px;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: #8e38d0;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color:#68088B;
@@ -103,16 +136,26 @@ ul.justify {
 ul.conheca {
     list-style: none;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2em;
     margin: auto;
 }
 img.conheca {
     margin:0rem 4rem;
-    padding: auto;
+    filter: blur(1px);
+    display: inline-block;
 }
-footer {
-    padding: 20px;
+img.conheca:hover {
+    filter: blur(0px);
+}
+img.conheca:active {
+    -webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+footer{
+    padding:2em;
+    margin: 0;
 }
 @media screen and (max-width: 768px) {
     img, iframe, main, .main{
