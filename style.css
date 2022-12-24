@@ -190,46 +190,86 @@ footer{
     margin: 0;
 }
 @media screen and (max-width: 768px) {
-    img, iframe, main, .main{
+    img, iframe, main, header, li{
         max-width: 100%;
-        max-height: 100%;
         padding: 0;
-        align-items: center;
+        display: block;
+        margin: 0;
+        border-radius: 0px;
+    }
+    nav{
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 15px;
     }
     section{
-        max-width: 100%;
-        max-height: 395px;
+        padding: 30px;
     }
+    #color-picker{
+        margin: 0px;
+        padding-top: 10px;
+    }
+}
 @media screen and (max-width: 600px) {
-    img, iframe, main, .main{
+    img, iframe, main, header, li{
         max-width: 100%;
-        max-height: 100%;
         padding: 0;
-        align-items: center;
+        display: block;
+        margin: 0;
+        border-radius: 0px;
+    }
+    nav{
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 15px;
     }
     section{
-        max-width: 100%;
-        max-height: 300px;
+        padding: 30px;
+    }
+    #color-picker{
+        margin: 0px;
+        padding-top: 10px;
+    }
 }
 @media screen and (max-width: 412px) {
-    img, iframe, main, .main{
+    img, iframe, main, header, li{
         max-width: 100%;
-        max-height: 100%;
         padding: 0;
-        align-items: center;
+        display: block;
+        margin: 0;
+        border-radius: 0px;
+    }
+    nav{
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 15px;
     }
     section{
-        max-width: 100%;
-        max-height: 200px;
+        padding: 30px;
+    }
+    #color-picker{
+        margin: 0px;
+        padding-top: 10px;
+    }
 }
 @media screen and (max-width: 360px) {
-    img, iframe, main, .main{
-        max-width: 90%;
-        max-height: 90%;
+    img, iframe, main, header, li{
+        max-width: 100%;
         padding: 0;
-        align-items: center;
+        display: block;
+        margin: 0;
+        border-radius: 0px;
+    }
+    nav{
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 15px;
     }
     section{
-        max-width: 100%;
-        max-height: 180px;
+        padding: 30px;
+    }
+    #color-picker{
+        margin: 0px;
+        padding-top: 10px;
+    }
 }
