@@ -144,6 +144,27 @@ h2 {
 p{
     margin: 15px;
 }
+section{
+    background-color:#1d1d1c;
+    padding:10px;
+    border-radius:3px;
+}
+.color-picker{
+    position:relative;
+}
+.color-indicator{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+#color-picker{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
 ul.justify {
     text-align: justify;
     margin: 0% 15% 0% 22%;
